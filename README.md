@@ -3,7 +3,7 @@
 ## Proyecto Integrador I - Proyecto Alfa - Grupo OPP3
 
 ### Análisis de variaciones del dólar 
-Se extraerán las cotizaciones de medios periodísticos especializados. Luego, con esa data se conformará una tabla para que sea insumo para el análisis.
+Se extraerán las cotizaciones de medios periodísticos especializados. Luego, con esa data se conformará una tabla para que sea esta luego sea insumo de visualizaciones para el análisis.
 También se programarán alertas que lleguen a través de la app de mensajería Telegram.
 
 ### Integrantes del grupo OPP3
