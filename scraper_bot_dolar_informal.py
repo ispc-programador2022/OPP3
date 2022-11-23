@@ -51,12 +51,17 @@ while True:
 
   print("The current date and time is", current_time)
 
+  #agrego unas correcciones del tipo de de dato, útiles para la estética del mensaje y para la visualización (valores numéricos)
+  dolar = dolar[0]
+  dolar = dolar.replace('$', '').replace(',','.')
+  dolar = float(dolar)
+
   lista_fechas.append(current_time)
 
   lista_dolar.append(dolar)
 
-  # Envio los shows encontrados
-  send_msg(dolar, chat_id, bot_token)
+  # Envio los valores encontrados en el HTML de la página
+  send_msg(f"Valor de venta actual del dólar informal es: ${dolar}", chat_id, bot_token)
 
   time.sleep(1*60*60)
 
